@@ -1,0 +1,13 @@
+$TTL 6h
+@    IN SOA    alpha.com.    alpha.com. (
+            2011041601
+            10800
+            3600
+            604800
+            86400 )
+
+@        NS    ns.alpha.com.
+
+         IN A    127.0.0.1
+ns       IN A    192.168.1.133
+* IN A   127.0.0.1
